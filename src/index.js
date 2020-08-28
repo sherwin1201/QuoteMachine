@@ -9,7 +9,7 @@ import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons"
 import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons"
 
 const mainColor= ["#BDB76B", "#228B22", "#00FA9A", "#808000", "#6B8E23", "#008B8B", "#00BFFF", "#000080", "#7B68EE", "#FF00FF", "#4B0082", "#C71585", "#808080", "#2F4F4F", "#DAA520", "#800000", "#D2691E", "#778899", "#40E0D0", "#F0E68C"];
-//let index = Math.floor(Math.random()*20);
+
 
 
 const QuoteBox = function(props){
