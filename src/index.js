@@ -89,8 +89,8 @@ class Main extends React.Component{
 		return(
 			<div>
 			<Helmet>
-					<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-					<style>{'body { background-color:'+ mainColor[this.state.randomIndex]+ '; }'}</style>
+				<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+				<style>{'body { background-color:'+ mainColor[this.state.randomIndex]+ '; }'}</style>
 			</Helmet>
 			
 				<QuoteBox quotes={this.state.quotes} randomIndex={this.state.randomIndex} onClick={() => {this.generateRandomIndex()}}/>
